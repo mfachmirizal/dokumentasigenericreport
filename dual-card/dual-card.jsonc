@@ -1,0 +1,66 @@
+{
+    "type": "infoandheader",
+    "title": "Parameter Pencarian",
+    "properties": {
+      "col": 2
+    },
+    "content": [
+      {
+        "label": "Jenis Identitas",
+        "value": "KTP"
+      },
+      {
+        "label": "Nomor Identitas",
+        "value": "123456789012345"
+      },
+      {
+        "label": "Nama",
+        "value": "Heri Heriyadi"
+      },
+      {
+        "label": "Tanggal Lahir",
+        "value": "1990-09-23"
+      },
+      {
+        "label": "Alamat Kota",
+        "value": "Jakarta"
+      },
+      {
+        "label": "Nomor Seluler",
+        "value": "08343429342"
+      },
+      {
+        "label": "Nomor Referensi",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "type": "infoandheader",
+    "title": "Heri Heriyadi",
+    "properties": {
+      "col": 2
+    },
+    "content": [
+      {
+        "label": "Nomor Identitas",
+        "value": "123456789012345"
+      },           
+      {
+        "label": "Tanggal Lahir",
+        "value": "1990-09-23"
+      },
+      {
+        "label": "Alamat",
+        "value": "Jl. Jakarta No.324, Jakarta Selatan, Dki Jakarta"
+      },
+      {
+        "label": "NPWP",
+        "value": "08343429342"
+      },
+      {
+        "label": "Nama Gadis Ibu Kandung",
+        "value": "Dede Suredeh"
+      }
+    ]
+  }

@@ -1,0 +1,193 @@
+{
+    "type": "chart",
+    "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
+    "properties": {
+      "col": 1,
+      "variant": "line"
+    },
+    "data": {
+      "labels": [
+        "Jan-19",
+        "Feb-19",
+        "Mar-19",
+        "Apr-19",
+        "May-19",
+        "Jun-19",
+        "Jul-19",
+        "Aug-19",
+        "Sep-19",
+        "Okt-19",
+        "Nov-19",
+        "Des-19",
+        "Jan-20",
+        "Feb-20",
+        "Mar-20",
+        "Apr-20",
+        "May-20",
+        "Jun-20",
+        "Jul-20",
+        "Aug-20",
+        "Sep-20",
+        "Okt-20",
+        "Nov-20",
+        "Des-20"
+      ],
+      "datasets": [
+        {
+          "label": "baki",
+          "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            0,
+            1,
+            1,
+            1
+          ],
+          "borderColor": "rgb(255, 99, 132)",
+          "backgroundColor": "rgba(255, 99, 132, 0.5)"
+        },
+        {
+          "label": "tunggakan",
+          "data": [
+            2,
+            1,
+            9,
+            3,
+            4,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2,
+            1,
+            9,
+            3,
+            4,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "borderColor": "rgb(53, 162, 235)",
+          "backgroundColor": "rgba(53, 162, 235, 0.5)"
+        }
+      ]
+    },
+    "scales": {
+      "y": {
+        "type": "linear",
+        "display": true,
+        "position": "left",
+        "min": 0,
+        "max": 10,
+        "title": {
+          "display": true,
+          "text": "total baki",
+          "color": "rgb(255, 99, 132)",
+          "font": {
+            "size": 16,
+            "family": "sans-serif",
+            "weight": "bold"
+          }
+        }
+      },
+      "y1": {
+        "type": "linear",
+        "display": true,
+        "position": "right",
+        "min": 0,
+        "max": 10,
+        "title": {
+          "display": true,
+          "text": "total tunggakan",
+          "color": "rgb(53, 162, 235)",
+          "font": {
+            "size": 16,
+            "family": "sans-serif",
+            "weight": "bold"
+          }
+        },
+        "grid": {
+          "drawOnChartArea": false
+        }
+      }
+    },
+    "table": {
+      "headers": [
+        {
+          "title": "Bulan",
+          "dataIndex": "bulan",
+          "isId": true
+        },
+        {
+          "title": "Jumlah Fasilitas",
+          "dataIndex": "jumlahfasilitas"
+        },
+        {
+          "title": "Total Plafon",
+          "dataIndex": "totalplafon",
+          "isId": true
+        },
+        {
+          "title": "Total Baki Debet",
+          "dataIndex": "totalbakidebet"
+        },
+        {
+          "title": "Total Tunggakan",
+          "dataIndex": "totaltunggakan"
+        },
+        {
+          "title": "Maksimal Hari Tunggakan",
+          "dataIndex": "maksimalharitunggakan"
+        },
+        {
+          "title": "Maksimal Kolektabilitas",
+          "dataIndex": "maksimalkolektabilitas"
+        }
+      ],
+      "rows": [
+        {
+          "bulan": "Jan-19",
+          "jumlahfasilitas": "6",
+          "totalplafon": "500.000.000",
+          "totalbakidebet": "500.000.000",
+          "totaltunggakan": "500.000.000",
+          "maksimalharitunggakan": "123",
+          "maksimalkolektabilitas": "3"
+        },
+        {
+          "bulan": "Feb-19",
+          "jumlahfasilitas": "6",
+          "totalplafon": "500.000.000",
+          "totalbakidebet": "500.000.000",
+          "totaltunggakan": "500.000.000",
+          "maksimalharitunggakan": "123",
+          "maksimalkolektabilitas": "3"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,50 @@
+{
+    "type": "table",
+    "title": "Ringkasan Score",
+    "headers": [
+      {
+        "title": "Jenis Skor",
+        "dataIndex": "jenisscore",
+        "isId": true
+      },
+      {
+        "title": "Nilai",
+        "dataIndex": "nilai"
+      },
+      {
+        "title": "Kategori",
+        "dataIndex": "kategori",
+        "isId": true
+      },
+      {
+        "title": "PoD",
+        "dataIndex": "pod"
+      },
+      {
+        "title": "Trend",
+        "dataIndex": "trend"
+      },
+      {
+        "title": "Keputusan",
+        "dataIndex": "keputusan"
+      }
+    ],
+    "rows": [
+      {
+        "jenisscore": "<a>Scoring 1</a>",
+        "nilai": "626",
+        "kategori": "LOW",
+        "pod": "10%",
+        "trend": "Down",
+        "keputusan": "Declined"
+      },
+      {
+        "jenisscore": "<a>Scoring 2</a>",
+        "nilai": "626",
+        "kategori": "MID",
+        "pod": "10%",
+        "trend": "Up",
+        "keputusan": "Accepted"
+      }
+    ]
+}

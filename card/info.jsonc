@@ -1,0 +1,43 @@
+{
+    "title": "Ringkasan Skor",
+    "type": "info",
+    "properties": {},
+    "content": [
+      {
+        "label": "Nama Sesuai Identitas",
+        "value": "Heri Heriyadi"
+      },
+      {
+        "label": "Tanggal Lahir",
+        "value": "1990-08-23"
+      },
+      {
+        "label": "Tempat Lahir",
+        "value": "Jakarta"
+      },
+      {
+        "label": "Jenis Kelamin",
+        "value": "Male"
+      },
+      {
+        "label": "Status Perkawinan",
+        "value": "Kawin"
+      },
+      {
+        "label": "Nama Lengkap",
+        "value": "Heri Heriyadi"
+      },
+      {
+        "label": "Nama Gadis Ibu Kandung",
+        "value": "Wati Komariah"
+      },
+      {
+        "label": "Pendidikan",
+        "value": "S-1"
+      },
+      {
+        "label": "Kategori Debitur",
+        "value": "Penduduk"
+      }
+    ]
+  }

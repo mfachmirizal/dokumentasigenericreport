@@ -1,0 +1,11 @@
+{
+  "type": "group",
+  "title": "Ringkasan Laporan",
+  "properties": {
+    "variant": "slider",
+    "col": 1
+  },
+  "childs": [
+    //....
+  ]
+}
