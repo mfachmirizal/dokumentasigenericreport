@@ -1,9 +1,15 @@
-//ini contoh 3 tab (ringkasan, individu, scoring)
 {
-    "ringkasan": {
-      "title": "Ringkasan",
+  "header": {
+    "nama": "Heri Heryadi",
+    "report-id": "XXX",
+    "bid": "XXX",
+    "print-url": "/report?report_id=&bid="
+  },
+  "sections": {
+    "sample": {
+      "title": "Sample",
       "type": "tab",
-      "childs": [ 
+      "childs": [
         {
           "type": "infoandheader",
           "title": "Parameter Pencarian",
@@ -51,7 +57,7 @@
             {
               "label": "Nomor Identitas",
               "value": "123456789012345"
-            },           
+            },
             {
               "label": "Tanggal Lahir",
               "value": "1990-09-23"
@@ -619,7 +625,9 @@
             {
               "title": "Ringkasan Skor",
               "type": "info",
-              "properties": {},
+              "properties": {
+                
+              },
               "content": [
                 {
                   "label": "Nama Sesuai Identitas",
@@ -825,39 +833,39 @@
                   "content": [
                     {
                       "label": "Nama Field 1",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 2",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 3",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 4",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 5",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 6",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 7",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 8",
-                      "value":"value"
+                      "value": "value"
                     },
                     {
                       "label": "Nama Field 8",
-                      "value":"value"
+                      "value": "value"
                     }
                   ]
                 },
@@ -865,7 +873,7 @@
                   "type": "table",
                   "title": "Riwayat Informasi",
                   "headers": [
-                    { 
+                    {
                       "title": "Tgl. Perubahan",
                       "dataIndex": "tglperubahan",
                       "isId": true
@@ -885,7 +893,6 @@
                     }
                   ],
                   "rows": [
-                                 
                     {
                       "tglperubahan": "2020-01-01",
                       "jenisdata": "nama Field 1",
@@ -915,7 +922,7 @@
                       "jenisdata": "nama Field 5",
                       "datasebelum": "nilai sebelumnya",
                       "datasesudah": "nilai sesudahnya"
-                    }, 
+                    },
                     {
                       "tglperubahan": "2020-01-06",
                       "jenisdata": "nama Field 6",
@@ -929,5 +936,95 @@
           ]
         }
       ]
+    },
+    "individu": {
+      "title": "Individu",
+      "type": "tab",
+      "childs": [
+        {
+          "type": "group",
+          "title": "Di Dalam Ringkasan Laporan",
+          "properties": {
+            "variant": "slider",
+            "col": 1
+          },
+          "childs": [
+            {
+              "type": "card",
+              "title": "INI CARD Score",
+              "content": {
+                "text1": "AWW"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "scoring": {
+      "title": "Scoring",
+      "type": "tab",
+      "childs": [
+        {
+          "type": "group",
+          "title": "Ringkasan Laporan",
+          "properties": {
+            "variant": "slider",
+            "col": 1
+          },
+          "childs": [
+            {
+              "type": "table",
+              "title": "Ringkasan Score",
+              "headers": [
+                {
+                  "title": "Jenis Skor",
+                  "dataIndex": "jenisscore",
+                  "isId": true
+                },
+                {
+                  "title": "Nilai",
+                  "dataIndex": "nilai"
+                },
+                {
+                  "title": "Kategori",
+                  "dataIndex": "kategori",
+                  "isId": true
+                },
+                {
+                  "title": "PoD",
+                  "dataIndex": "pod"
+                },
+                {
+                  "title": "Trend",
+                  "dataIndex": "trend"
+                },
+                {
+                  "title": "Keputusan",
+                  "dataIndex": "keputusan"
+                }
+              ],
+              "rows": [
+                {
+                  "jenisscore": "<a>Scoring 1</a>",
+                  "nilai": "626",
+                  "kategori": "LOW",
+                  "pod": "10%",
+                  "trend": "Down",
+                  "keputusan": "Declined"
+                },
+                {
+                  "jenisscore": "<a>Scoring 2</a>",
+                  "nilai": "626",
+                  "kategori": "MID",
+                  "pod": "10%",
+                  "trend": "Up",
+                  "keputusan": "Accepted"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
+}
