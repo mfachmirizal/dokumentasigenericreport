@@ -1,8 +1,11 @@
 {
-    "title": "Ringkasan Skor",
-    "type": "info",
-    "properties": {},
-    "content": [
+  "title": "Ringkasan Skor",
+  "type": "info",
+  "properties": {
+    
+  },
+  "content": {
+    "left": [
       {
         "label": "Nama Sesuai Identitas",
         "value": "Heri Heriyadi"
@@ -23,6 +26,9 @@
         "label": "Status Perkawinan",
         "value": "Kawin"
       },
+      
+    ],
+    "right": [
       {
         "label": "Nama Lengkap",
         "value": "Heri Heriyadi"
@@ -41,3 +47,4 @@
       }
     ]
   }
+}
