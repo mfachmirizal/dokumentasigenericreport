@@ -16,36 +16,41 @@
           "properties": {
             "col": 2
           },
-          "content": [
-            {
-              "label": "Jenis Identitas",
-              "value": "KTP"
-            },
-            {
-              "label": "Nomor Identitas",
-              "value": "123456789012345"
-            },
-            {
-              "label": "Nama",
-              "value": "Heri Heriyadi"
-            },
-            {
-              "label": "Tanggal Lahir",
-              "value": "1990-09-23"
-            },
-            {
-              "label": "Alamat Kota",
-              "value": "Jakarta"
-            },
-            {
-              "label": "Nomor Seluler",
-              "value": "08343429342"
-            },
-            {
-              "label": "Nomor Referensi",
-              "value": ""
-            }
-          ]
+          "content": {
+            "left": [
+              {
+                "label": "Jenis Identitas",
+                "value": "KTP"
+              },
+              {
+                "label": "Nomor Identitas",
+                "value": "123456789012345"
+              },
+              
+            ],
+            "right": [
+              {
+                "label": "Nama",
+                "value": "Heri Heriyadi"
+              },
+              {
+                "label": "Tanggal Lahir",
+                "value": "1990-09-23"
+              },
+              {
+                "label": "Alamat Kota",
+                "value": "Jakarta"
+              },
+              {
+                "label": "Nomor Seluler",
+                "value": "08343429342"
+              },
+              {
+                "label": "Nomor Referensi",
+                "value": ""
+              }
+            ]
+          }
         },
         {
           "type": "infoandheader",
@@ -53,28 +58,33 @@
           "properties": {
             "col": 2
           },
-          "content": [
-            {
-              "label": "Nomor Identitas",
-              "value": "123456789012345"
-            },
-            {
-              "label": "Tanggal Lahir",
-              "value": "1990-09-23"
-            },
-            {
-              "label": "Alamat",
-              "value": "Jl. Jakarta No.324, Jakarta Selatan, Dki Jakarta"
-            },
-            {
-              "label": "NPWP",
-              "value": "08343429342"
-            },
-            {
-              "label": "Nama Gadis Ibu Kandung",
-              "value": "Dede Suredeh"
-            }
-          ]
+          "content": {
+            "left": [
+              {
+                "label": "Nomor Identitas",
+                "value": "123456789012345"
+              },
+              {
+                "label": "Tanggal Lahir",
+                "value": "1990-09-23"
+              },
+              {
+                "label": "Alamat",
+                "value": "Jl. Jakarta No.324, Jakarta Selatan, Dki Jakarta"
+              },
+              
+            ],
+            "right": [
+              {
+                "label": "NPWP",
+                "value": "08343429342"
+              },
+              {
+                "label": "Nama Gadis Ibu Kandung",
+                "value": "Dede Suredeh"
+              }
+            ]
+          }
         },
         {
           "type": "group",
@@ -628,44 +638,49 @@
               "properties": {
                 
               },
-              "content": [
-                {
-                  "label": "Nama Sesuai Identitas",
-                  "value": "Heri Heriyadi"
-                },
-                {
-                  "label": "Tanggal Lahir",
-                  "value": "1990-08-23"
-                },
-                {
-                  "label": "Tempat Lahir",
-                  "value": "Jakarta"
-                },
-                {
-                  "label": "Jenis Kelamin",
-                  "value": "Male"
-                },
-                {
-                  "label": "Status Perkawinan",
-                  "value": "Kawin"
-                },
-                {
-                  "label": "Nama Lengkap",
-                  "value": "Heri Heriyadi"
-                },
-                {
-                  "label": "Nama Gadis Ibu Kandung",
-                  "value": "Wati Komariah"
-                },
-                {
-                  "label": "Pendidikan",
-                  "value": "S-1"
-                },
-                {
-                  "label": "Kategori Debitur",
-                  "value": "Penduduk"
-                }
-              ]
+              "content": {
+                "left": [
+                  {
+                    "label": "Nama Sesuai Identitas",
+                    "value": "Heri Heriyadi"
+                  },
+                  {
+                    "label": "Tanggal Lahir",
+                    "value": "1990-08-23"
+                  },
+                  {
+                    "label": "Tempat Lahir",
+                    "value": "Jakarta"
+                  },
+                  {
+                    "label": "Jenis Kelamin",
+                    "value": "Male"
+                  },
+                  {
+                    "label": "Status Perkawinan",
+                    "value": "Kawin"
+                  },
+                  
+                ],
+                "right": [
+                  {
+                    "label": "Nama Lengkap",
+                    "value": "Heri Heriyadi"
+                  },
+                  {
+                    "label": "Nama Gadis Ibu Kandung",
+                    "value": "Wati Komariah"
+                  },
+                  {
+                    "label": "Pendidikan",
+                    "value": "S-1"
+                  },
+                  {
+                    "label": "Kategori Debitur",
+                    "value": "Penduduk"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -830,44 +845,49 @@
                   "properties": {
                     "col": 1
                   },
-                  "content": [
-                    {
-                      "label": "Nama Field 1",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 2",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 3",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 4",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 5",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 6",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 7",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 8",
-                      "value": "value"
-                    },
-                    {
-                      "label": "Nama Field 8",
-                      "value": "value"
-                    }
-                  ]
+                  "content": {
+                    "left": [
+                      {
+                        "label": "Nama Field 1",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 2",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 3",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 4",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 5",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 6",
+                        "value": "value"
+                      },
+                      
+                    ],
+                    "right": [
+                      {
+                        "label": "Nama Field 7",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 8",
+                        "value": "value"
+                      },
+                      {
+                        "label": "Nama Field 8",
+                        "value": "value"
+                      }
+                    ]
+                  }
                 },
                 {
                   "type": "table",
@@ -953,7 +973,18 @@
               "type": "card",
               "title": "INI CARD Score",
               "content": {
-                "text1": "AWW"
+                "left": [
+                  {
+                    label: 'label',
+                    value: 'value'
+                  }
+                ],
+                "right": [
+                  {
+                    label: 'label',
+                    value: 'value'
+                  }
+                ]
               }
             }
           ]
