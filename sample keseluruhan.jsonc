@@ -14,8 +14,9 @@
           "type": "infoandheader",
           "title": "Parameter Pencarian",
           "properties": {
-            "col": 2
-          },
+              "col": 1,
+              "divider": true
+            },
           "content": {
             "left": [
               {
@@ -56,8 +57,9 @@
           "type": "infoandheader",
           "title": "Heri Heriyadi",
           "properties": {
-            "col": 2
-          },
+              "col": 1,
+              "divider": true
+            },
           "content": {
             "left": [
               {
@@ -91,12 +93,17 @@
           "title": "Ringkasan Laporan",
           "properties": {
             "variant": "slider",
-            "col": 1
+            "col": 1,
+            "divider":true,
           },
           "childs": [
             {
               "type": "table",
-              "title": "Ringkasan Score",
+              "title": "Ringkasan Score", 
+              "properties": {
+              "col": 1,
+              "divider": true
+            },
               "headers": [
                 {
                   "title": "Jenis Skor",
