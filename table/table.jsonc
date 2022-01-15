@@ -1,6 +1,10 @@
 {
     "type": "table",
     "title": "Ringkasan Score",
+          "properties": {
+              "col": 1,
+              "divider": true
+            },
     "headers": [
       {
         "title": "Jenis Skor",
