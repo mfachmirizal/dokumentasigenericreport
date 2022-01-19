@@ -1,1068 +1,1230 @@
 {
-  "header": {
-    "nama": "Heri Heryadi",
-    "report-id": "XXX",
-    "bid": "XXX",
-    "print-url": "/report?report_id=&bid="
-  },
-  "sections": {
-    "sample": {
-      "title": "Sample",
-      "type": "tab",
-      "childs": [
-        {
-          "type": "infoandheader",
-          "title": "Parameter Pencarian",
-          "properties": {
-              "col": 1,
-              "divider": true
+  "sample": {
+    "title": "Sample",
+    "type": "tab",
+    "childs": [
+      {
+        "type": "infoandheader",
+        "title": "Parameter Pencarian",
+        "properties": {
+          "col": 2
+        },
+        "content": {
+          "left": [
+            {
+              "label": "Jenis Identitas",
+              "value": "KTP"
             },
-          "content": {
-            "left": [
+            {
+              "label": "Nomor Identitas",
+              "value": "123456789012345"
+            },
+            {
+              "label": "Nama",
+              "value": "Heri Heriyadi"
+            },
+            {
+              "label": "Tanggal Lahir",
+              "value": "1990-09-23"
+            },
+            {
+              "label": "Alamat Kota",
+              "value": "Jakarta"
+            }
+          ],
+          "right": [
+            {
+              "label": "Nomor Seluler",
+              "value": "08343429342"
+            },
+            {
+              "label": "Nomor Referensi",
+              "value": ""
+            }
+          ]
+        }
+      },
+      {
+        "type": "infoandheader",
+        "title": "Heri Heriyadi",
+        "properties": {
+          "col": 2
+        },
+        "content": {
+          "left": [
+            {
+              "label": "Nomor Identitas",
+              "value": "123456789012345"
+            },
+            {
+              "label": "Tanggal Lahir",
+              "value": "1990-09-23"
+            },
+            {
+              "label": "Alamat",
+              "value": "Jl. Jakarta No.324, Jakarta Selatan, Dki Jakarta"
+            },
+            {
+              "label": "NPWP",
+              "value": "08343429342"
+            }
+          ],
+          "right": [
+            {
+              "label": "Nama Gadis Ibu Kandung",
+              "value": "Dede Suredeh"
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "title": "Ringkasan Laporan",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "table",
+            "title": "Ringkasan Score",
+            "headers": [
               {
-                "label": "Jenis Identitas",
-                "value": "KTP"
+                "title": "Jenis Skor",
+                "dataIndex": "jenisscore",
+                "isId": true
               },
               {
-                "label": "Nomor Identitas",
-                "value": "123456789012345"
+                "title": "Nilai",
+                "dataIndex": "nilai"
               },
-              
+              {
+                "title": "Kategori",
+                "dataIndex": "kategori",
+                "isId": true
+              },
+              {
+                "title": "PoD",
+                "dataIndex": "pod"
+              },
+              {
+                "title": "Trend",
+                "dataIndex": "trend"
+              },
+              {
+                "title": "Keputusan",
+                "dataIndex": "keputusan"
+              }
             ],
-            "right": [
+            "rows": [
               {
-                "label": "Nama",
-                "value": "Heri Heriyadi"
+                "jenisscore": "<a>Scoring 1</a>",
+                "nilai": "626",
+                "kategori": "LOW",
+                "pod": "10%",
+                "trend": "Down",
+                "keputusan": "Declined"
               },
               {
-                "label": "Tanggal Lahir",
-                "value": "1990-09-23"
-              },
-              {
-                "label": "Alamat Kota",
-                "value": "Jakarta"
-              },
-              {
-                "label": "Nomor Seluler",
-                "value": "08343429342"
-              },
-              {
-                "label": "Nomor Referensi",
-                "value": ""
+                "jenisscore": "<a>Scoring 2</a>",
+                "nilai": "626",
+                "kategori": "MID",
+                "pod": "10%",
+                "trend": "Up",
+                "keputusan": "Accepted"
               }
             ]
-          }
-        },
-        {
-          "type": "infoandheader",
-          "title": "Heri Heriyadi",
-          "properties": {
-              "col": 1,
-              "divider": true
-            },
-          "content": {
-            "left": [
-              {
-                "label": "Nomor Identitas",
-                "value": "123456789012345"
-              },
-              {
-                "label": "Tanggal Lahir",
-                "value": "1990-09-23"
-              },
-              {
-                "label": "Alamat",
-                "value": "Jl. Jakarta No.324, Jakarta Selatan, Dki Jakarta"
-              },
-              
-            ],
-            "right": [
-              {
-                "label": "NPWP",
-                "value": "08343429342"
-              },
-              {
-                "label": "Nama Gadis Ibu Kandung",
-                "value": "Dede Suredeh"
-              }
-            ]
-          }
-        },
-        {
-          "type": "group",
-          "title": "Ringkasan Laporan",
-          "properties": {
-            "variant": "slider",
-            "col": 1,
-            "divider":true,
           },
-          "childs": [
-            {
-              "type": "table",
-              "title": "Ringkasan Score", 
-              "properties": {
-              "col": 1,
-              "divider": true
-            },
-              "headers": [
-                {
-                  "title": "Jenis Skor",
-                  "dataIndex": "jenisscore",
-                  "isId": true
-                },
-                {
-                  "title": "Nilai",
-                  "dataIndex": "nilai"
-                },
-                {
-                  "title": "Kategori",
-                  "dataIndex": "kategori",
-                  "isId": true
-                },
-                {
-                  "title": "PoD",
-                  "dataIndex": "pod"
-                },
-                {
-                  "title": "Trend",
-                  "dataIndex": "trend"
-                },
-                {
-                  "title": "Keputusan",
-                  "dataIndex": "keputusan"
-                }
-              ],
-              "rows": [
-                {
-                  "jenisscore": "<a>Scoring 1</a>",
-                  "nilai": "626",
-                  "kategori": "LOW",
-                  "pod": "10%",
-                  "trend": "Down",
-                  "keputusan": "Declined"
-                },
-                {
-                  "jenisscore": "<a>Scoring 2</a>",
-                  "nilai": "626",
-                  "kategori": "MID",
-                  "pod": "10%",
-                  "trend": "Up",
-                  "keputusan": "Accepted"
-                }
-              ]
-            },
-            {
-              "type": "table",
-              "title": "Decision ===> STD tim produk",
-              "headers": [
-                {
-                  "title": "Jenis Skor",
-                  "dataIndex": "jenisscore",
-                  "isId": true
-                },
-                {
-                  "title": "Nilai",
-                  "dataIndex": "nilai"
-                },
-                {
-                  "title": "Kategori",
-                  "dataIndex": "kategori",
-                  "isId": true
-                },
-                {
-                  "title": "PoD",
-                  "dataIndex": "pod"
-                },
-                {
-                  "title": "Trend",
-                  "dataIndex": "trend"
-                },
-                {
-                  "title": "Keputusan",
-                  "dataIndex": "keputusan"
-                }
-              ],
-              "rows": [
-                {
-                  "jenisscore": "<a>Scoring 1</a>",
-                  "nilai": "626",
-                  "kategori": "LOW",
-                  "pod": "10%",
-                  "trend": "Down",
-                  "keputusan": "Declined"
-                },
-                {
-                  "jenisscore": "<a>Scoring 2</a>",
-                  "nilai": "626",
-                  "kategori": "MID",
-                  "pod": "10%",
-                  "trend": "Up",
-                  "keputusan": "Accepted"
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "title": "Permohonan 6 Bulan Terakhir",
-              "properties": {
-                "variant": "point-title",
-                "col": 1
+          {
+            "type": "table",
+            "title": "Decision ===> STD tim produk",
+            "headers": [
+              {
+                "title": "Jenis Skor",
+                "dataIndex": "jenisscore",
+                "isId": true
               },
-              "childs": [
-                {
-                  "type": "chart",
-                  "title": "Oleh Pihak Lain",
-                  "properties": {
-                    "col": 2,
-                    "variant": "doughnut"
-                  },
-                  "data": {
-                    "labels": [
-                      "19 Pemenuhan Peraturan Perundangan",
-                      "16 Penyediaan Fasilitas",
-                      "9 Pemantauan Debitur",
-                      "6 Manajemen Resiko Operasional"
-                    ],
-                    "datasets": [
-                      {
-                        "label": "# of Votes",
-                        "data": [
-                          19,
-                          16,
-                          9,
-                          6
-                        ],
-                        "backgroundColor": [
-                          "rgba(164, 163, 255, 0.8)",
-                          "rgba(90, 90, 139, 0.8)",
-                          "rgba(34, 33, 98, 0.8)",
-                          "rgba(130, 129, 209, 0.8)"
-                        ],
-                        "borderColor": [
-                          "rgba(164, 163, 255, 1)",
-                          "rgba(90, 90, 139, 1)",
-                          "rgba(34, 33, 98, 1)",
-                          "rgba(130, 129, 209, 1)"
-                        ],
-                        "borderWidth": 1
-                      }
-                    ]
-                  }
-                },
-                {
-                  "type": "chart",
-                  "title": "By Member",
-                  "properties": {
-                    "col": 2,
-                    "variant": "doughnut"
-                  },
-                  "data": {
-                    "labels": [
-                      "19 Pemenuhan Peraturan Perundangan",
-                      "16 Penyediaan Fasilitas",
-                      "9 Pemantauan Debitur",
-                      "6 Manajemen Resiko Operasional"
-                    ],
-                    "datasets": [
-                      {
-                        "label": "# of Votes",
-                        "data": [
-                          19,
-                          16,
-                          9,
-                          6
-                        ],
-                        "backgroundColor": [
-                          "rgba(164, 163, 255, 0.8)",
-                          "rgba(90, 90, 139, 0.8)",
-                          "rgba(34, 33, 98, 0.8)",
-                          "rgba(130, 129, 209, 0.8)"
-                        ],
-                        "borderColor": [
-                          "rgba(164, 163, 255, 1)",
-                          "rgba(90, 90, 139, 1)",
-                          "rgba(34, 33, 98, 1)",
-                          "rgba(130, 129, 209, 1)"
-                        ],
-                        "borderWidth": 1
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "title": "Data Lain",
-              "properties": {
-                "variant": "point-title",
-                "col": 1
+              {
+                "title": "Nilai",
+                "dataIndex": "nilai"
               },
-              "childs": [
-                {
-                  "type": "table",
-                  "title": "Data Publik",
-                  "properties": {
-                    "col": 2,
-                    "removepoint": true
-                  },
-                  "headers": [
-                    {
-                      "title": "No",
-                      "dataIndex": "no",
-                      "isId": true
-                    },
-                    {
-                      "title": "Nama Lembaga",
-                      "dataIndex": "namalembaga"
-                    }
+              {
+                "title": "Kategori",
+                "dataIndex": "kategori",
+                "isId": true
+              },
+              {
+                "title": "PoD",
+                "dataIndex": "pod"
+              },
+              {
+                "title": "Trend",
+                "dataIndex": "trend"
+              },
+              {
+                "title": "Keputusan",
+                "dataIndex": "keputusan"
+              }
+            ],
+            "rows": [
+              {
+                "jenisscore": "<a>Scoring 1</a>",
+                "nilai": "626",
+                "kategori": "LOW",
+                "pod": "10%",
+                "trend": "Down",
+                "keputusan": "Declined"
+              },
+              {
+                "jenisscore": "<a>Scoring 2</a>",
+                "nilai": "626",
+                "kategori": "MID",
+                "pod": "10%",
+                "trend": "Up",
+                "keputusan": "Accepted"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Permohonan 6 Bulan Terakhir",
+            "properties": {
+              "variant": "point-title",
+              "col": 1
+            },
+            "childs": [
+              {
+                "type": "chart",
+                "title": "Oleh Pihak Lain",
+                "properties": {
+                  "col": 2,
+                  "variant": "doughnut"
+                },
+                "data": {
+                  "labels": [
+                    "19 Pemenuhan Peraturan Perundangan",
+                    "16 Penyediaan Fasilitas",
+                    "9 Pemantauan Debitur",
+                    "6 Manajemen Resiko Operasional"
                   ],
-                  "rows": [
+                  "datasets": [
                     {
-                      "no": "1",
-                      "namalembaga": "Bank Mandiri"
-                    },
-                    {
-                      "no": "2",
-                      "namalembaga": "BCA"
+                      "label": "# of Votes",
+                      "data": [19, 16, 9, 6],
+                      "backgroundColor": [
+                        "rgba(164, 163, 255, 0.8)",
+                        "rgba(90, 90, 139, 0.8)",
+                        "rgba(34, 33, 98, 0.8)",
+                        "rgba(130, 129, 209, 0.8)"
+                      ],
+                      "borderColor": [
+                        "rgba(164, 163, 255, 1)",
+                        "rgba(90, 90, 139, 1)",
+                        "rgba(34, 33, 98, 1)",
+                        "rgba(130, 129, 209, 1)"
+                      ],
+                      "borderWidth": 1
                     }
                   ]
-                },
-                {
-                  "type": "chart",
-                  "title": "Lembaga Jasa Non Keuangan",
-                  "properties": {
-                    "col": 2,
-                    "variant": "doughnut"
-                  },
-                  "data": {
-                    "labels": [
-                      "19 Pemenuhan Peraturan Perundangan",
-                      "16 Penyediaan Fasilitas",
-                      "9 Pemantauan Debitur",
-                      "6 Manajemen Resiko Operasional"
-                    ],
-                    "datasets": [
-                      {
-                        "label": "# of Votes",
-                        "data": [
-                          19,
-                          16,
-                          9,
-                          6
-                        ],
-                        "backgroundColor": [
-                          "rgba(164, 163, 255, 0.8)",
-                          "rgba(90, 90, 139, 0.8)",
-                          "rgba(34, 33, 98, 0.8)",
-                          "rgba(130, 129, 209, 0.8)"
-                        ],
-                        "borderColor": [
-                          "rgba(164, 163, 255, 1)",
-                          "rgba(90, 90, 139, 1)",
-                          "rgba(34, 33, 98, 1)",
-                          "rgba(130, 129, 209, 1)"
-                        ],
-                        "borderWidth": 1
-                      }
-                    ]
-                  }
                 }
-              ]
+              },
+              {
+                "type": "chart",
+                "title": "By Member",
+                "properties": {
+                  "col": 2,
+                  "variant": "doughnut"
+                },
+                "data": {
+                  "labels": [
+                    "19 Pemenuhan Peraturan Perundangan",
+                    "16 Penyediaan Fasilitas",
+                    "9 Pemantauan Debitur",
+                    "6 Manajemen Resiko Operasional"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "# of Votes",
+                      "data": [19, 16, 9, 6],
+                      "backgroundColor": [
+                        "rgba(164, 163, 255, 0.8)",
+                        "rgba(90, 90, 139, 0.8)",
+                        "rgba(34, 33, 98, 0.8)",
+                        "rgba(130, 129, 209, 0.8)"
+                      ],
+                      "borderColor": [
+                        "rgba(164, 163, 255, 1)",
+                        "rgba(90, 90, 139, 1)",
+                        "rgba(34, 33, 98, 1)",
+                        "rgba(130, 129, 209, 1)"
+                      ],
+                      "borderWidth": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Data Lain",
+            "properties": {
+              "variant": "point-title",
+              "col": 1
             },
-            {
-              "type": "chart",
-              "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
-              "properties": {
-                "col": 1,
-                "variant": "line"
-              },
-              "data": {
-                "labels": [
-                  "Jan-19",
-                  "Feb-19",
-                  "Mar-19",
-                  "Apr-19",
-                  "May-19",
-                  "Jun-19",
-                  "Jul-19",
-                  "Aug-19",
-                  "Sep-19",
-                  "Okt-19",
-                  "Nov-19",
-                  "Des-19",
-                  "Jan-20",
-                  "Feb-20",
-                  "Mar-20",
-                  "Apr-20",
-                  "May-20",
-                  "Jun-20",
-                  "Jul-20",
-                  "Aug-20",
-                  "Sep-20",
-                  "Okt-20",
-                  "Nov-20",
-                  "Des-20"
-                ],
-                "datasets": [
-                  {
-                    "label": "baki",
-                    "data": [
-                      0,
-                      1,
-                      2,
-                      3,
-                      4,
-                      5,
-                      6,
-                      7,
-                      8,
-                      9,
-                      0,
-                      1,
-                      2,
-                      3,
-                      4,
-                      5,
-                      6,
-                      7,
-                      8,
-                      9,
-                      0,
-                      1,
-                      1,
-                      1
-                    ],
-                    "borderColor": "rgb(255, 99, 132)",
-                    "backgroundColor": "rgba(255, 99, 132, 0.5)"
-                  },
-                  {
-                    "label": "tunggakan",
-                    "data": [
-                      2,
-                      1,
-                      9,
-                      3,
-                      4,
-                      3,
-                      4,
-                      4,
-                      4,
-                      4,
-                      4,
-                      4,
-                      2,
-                      1,
-                      9,
-                      3,
-                      4,
-                      3,
-                      4,
-                      4,
-                      4,
-                      4,
-                      4,
-                      4
-                    ],
-                    "borderColor": "rgb(53, 162, 235)",
-                    "backgroundColor": "rgba(53, 162, 235, 0.5)"
-                  }
-                ]
-              },
-              "scales": {
-                "y": {
-                  "type": "linear",
-                  "display": true,
-                  "position": "left",
-                  "min": 0,
-                  "max": 10,
-                  "title": {
-                    "display": true,
-                    "text": "total baki",
-                    "color": "rgb(255, 99, 132)",
-                    "font": {
-                      "size": 16,
-                      "family": "sans-serif",
-                      "weight": "bold"
-                    }
-                  }
+            "childs": [
+              {
+                "type": "table",
+                "title": "Data Publik",
+                "properties": {
+                  "col": 2,
+                  "removepoint": true
                 },
-                "y1": {
-                  "type": "linear",
-                  "display": true,
-                  "position": "right",
-                  "min": 0,
-                  "max": 10,
-                  "title": {
-                    "display": true,
-                    "text": "total tunggakan",
-                    "color": "rgb(53, 162, 235)",
-                    "font": {
-                      "size": 16,
-                      "family": "sans-serif",
-                      "weight": "bold"
-                    }
-                  },
-                  "grid": {
-                    "drawOnChartArea": false
-                  }
-                }
-              },
-              "table": {
                 "headers": [
                   {
-                    "title": "Bulan",
-                    "dataIndex": "bulan",
+                    "title": "No",
+                    "dataIndex": "no",
                     "isId": true
                   },
                   {
-                    "title": "Jumlah Fasilitas",
-                    "dataIndex": "jumlahfasilitas"
-                  },
-                  {
-                    "title": "Total Plafon",
-                    "dataIndex": "totalplafon",
-                    "isId": true
-                  },
-                  {
-                    "title": "Total Baki Debet",
-                    "dataIndex": "totalbakidebet"
-                  },
-                  {
-                    "title": "Total Tunggakan",
-                    "dataIndex": "totaltunggakan"
-                  },
-                  {
-                    "title": "Maksimal Hari Tunggakan",
-                    "dataIndex": "maksimalharitunggakan"
-                  },
-                  {
-                    "title": "Maksimal Kolektabilitas",
-                    "dataIndex": "maksimalkolektabilitas"
+                    "title": "Nama Lembaga",
+                    "dataIndex": "namalembaga"
                   }
                 ],
                 "rows": [
                   {
-                    "bulan": "Jan-19",
-                    "jumlahfasilitas": "6",
-                    "totalplafon": "500.000.000",
-                    "totalbakidebet": "500.000.000",
-                    "totaltunggakan": "500.000.000",
-                    "maksimalharitunggakan": "123",
-                    "maksimalkolektabilitas": "3"
+                    "no": "1",
+                    "namalembaga": "Bank Mandiri"
                   },
                   {
-                    "bulan": "Feb-19",
-                    "jumlahfasilitas": "6",
-                    "totalplafon": "500.000.000",
-                    "totalbakidebet": "500.000.000",
-                    "totaltunggakan": "500.000.000",
-                    "maksimalharitunggakan": "123",
-                    "maksimalkolektabilitas": "3"
+                    "no": "2",
+                    "namalembaga": "BCA"
                   }
                 ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "group",
-          "title": "Informasi Terkini",
-          "properties": {
-            "variant": "slider",
-            "col": 1
-          },
-          "childs": [
-            {
-              "type": "table",
-              "title": "",
-              "headers": [
-                {
-                  "title": "Tanggal Perolehan",
-                  "dataIndex": "tanggalperolehan",
-                  "isId": true
-                },
-                {
-                  "title": "Jenis Pelapor",
-                  "dataIndex": "jenispelapor"
-                },
-                {
-                  "title": "Pelapor",
-                  "dataIndex": "pelapor",
-                  "isId": true
-                },
-                {
-                  "title": "Jenis Data",
-                  "dataIndex": "jenisdata"
-                },
-                {
-                  "title": "Jenis Fasilitas",
-                  "dataIndex": "jenisfasilitas"
-                },
-                {
-                  "title": "Rekening",
-                  "dataIndex": "rekening"
-                },
-                {
-                  "title": "Data",
-                  "dataIndex": "data"
-                }
-              ],
-              "rows": [
-                {
-                  "tanggalperolehan": "2021-08-12",
-                  "jenispelapor": "Perbankan",
-                  "pelapor": "Bank Mandiri",
-                  "jenisdata": "Fasilitas Baru",
-                  "jenisfasilitas": "KPR",
-                  "rekening": "A123PP",
-                  "data": "1.000.0000"
-                },
-                {
-                  "tanggalperolehan": "2021-08-11",
-                  "jenispelapor": "Perbankan",
-                  "pelapor": "Bank BCA",
-                  "jenisdata": "Fasilitas Baru",
-                  "jenisfasilitas": "KPR",
-                  "rekening": "A123P",
-                  "data": "3.000.000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "group",
-          "title": "Coba Buat",
-          "properties": {
-            "variant": "slider",
-            "col": 1
-          },
-          "childs": [
-            {
-              "title": "Ringkasan Skor",
-              "type": "info",
-              "properties": {
-                
               },
-              "content": {
-                "left": [
-                  {
-                    "label": "Nama Sesuai Identitas",
-                    "value": "Heri Heriyadi"
-                  },
-                  {
-                    "label": "Tanggal Lahir",
-                    "value": "1990-08-23"
-                  },
-                  {
-                    "label": "Tempat Lahir",
-                    "value": "Jakarta"
-                  },
-                  {
-                    "label": "Jenis Kelamin",
-                    "value": "Male"
-                  },
-                  {
-                    "label": "Status Perkawinan",
-                    "value": "Kawin"
-                  },
-                  
-                ],
-                "right": [
-                  {
-                    "label": "Nama Lengkap",
-                    "value": "Heri Heriyadi"
-                  },
-                  {
-                    "label": "Nama Gadis Ibu Kandung",
-                    "value": "Wati Komariah"
-                  },
-                  {
-                    "label": "Pendidikan",
-                    "value": "S-1"
-                  },
-                  {
-                    "label": "Kategori Debitur",
-                    "value": "Penduduk"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "chart",
-          "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
-          "properties": {
-            "col": 1,
-            "variant": "line"
-          },
-          "data": {
-            "labels": [
-              "Jan-19",
-              "Feb-19",
-              "Mar-19",
-              "Apr-19",
-              "May-19",
-              "Jun-19",
-              "Jul-19",
-              "Aug-19",
-              "Sep-19",
-              "Okt-19",
-              "Nov-19",
-              "Des-19",
-              "Jan-20",
-              "Feb-20",
-              "Mar-20",
-              "Apr-20",
-              "May-20",
-              "Jun-20",
-              "Jul-20",
-              "Aug-20",
-              "Sep-20",
-              "Okt-20",
-              "Nov-20",
-              "Des-20"
-            ],
-            "datasets": [
               {
-                "label": "data 1",
-                "data": [
-                  600,
-                  543,
-                  483,
-                  570,
-                  501,
-                  550,
-                  603,
-                  546,
-                  532,
-                  621,
-                  506,
-                  462,
-                  626,
-                  619,
-                  617,
-                  564,
-                  569,
-                  505,
-                  562,
-                  543,
-                  580,
-                  457,
-                  483,
-                  507
-                ],
-                "fill": false,
-                "borderColor": "rgb(75, 192, 192)",
-                "pointRadius": 6,
-                "pointBackgroundColor": "rgb(75, 192, 192)"
+                "type": "chart",
+                "title": "Lembaga Jasa Non Keuangan",
+                "properties": {
+                  "col": 2,
+                  "variant": "doughnut"
+                },
+                "data": {
+                  "labels": [
+                    "19 Pemenuhan Peraturan Perundangan",
+                    "16 Penyediaan Fasilitas",
+                    "9 Pemantauan Debitur",
+                    "6 Manajemen Resiko Operasional"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "# of Votes",
+                      "data": [19, 16, 9, 6],
+                      "backgroundColor": [
+                        "rgba(164, 163, 255, 0.8)",
+                        "rgba(90, 90, 139, 0.8)",
+                        "rgba(34, 33, 98, 0.8)",
+                        "rgba(130, 129, 209, 0.8)"
+                      ],
+                      "borderColor": [
+                        "rgba(164, 163, 255, 1)",
+                        "rgba(90, 90, 139, 1)",
+                        "rgba(34, 33, 98, 1)",
+                        "rgba(130, 129, 209, 1)"
+                      ],
+                      "borderWidth": 1
+                    }
+                  ]
+                }
               }
             ]
           },
-          "plugins": {
-            "datalabels": {
-              "display": true,
-              "color": "black",
-              "align": "end",
-              "anchor": "end",
-              "font": {
-                "size": "10"
-              }
+          {
+            "type": "group",
+            "title": "",
+            "properties": {
+              "variant": "slider",
+              "col": 1
             },
-            "legend": {
-              "position": "bottom",
-              "display": false,
-              "labels": {
-                "color": "rgb(255, 99, 132)"
-              }
-            },
-            "autocolors": false,
-            "annotation": {
-              "annotations": {
-                "box1": {
-                  "type": "box",
-                  "xMin": 0,
-                  "xMax": 23,
-                  "yMin": 0,
-                  "yMax": 300,
-                  "backgroundColor": "rgb(95, 94, 203,0.5)",
-                  "borderWidth": 0
+            "childs": [
+              {
+                "type": "chart",
+                "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
+                "properties": {
+                  "col": 1,
+                  "variant": "line"
                 },
-                "box2": {
-                  "type": "box",
-                  "xMin": 0,
-                  "xMax": 23,
-                  "yMin": 300,
-                  "yMax": 500,
-                  "backgroundColor": "rgb(145, 145, 233,0.5)",
-                  "borderWidth": 0
+                "data": {
+                  "labels": [
+                    "Jan-19",
+                    "Feb-19",
+                    "Mar-19",
+                    "Apr-19",
+                    "May-19",
+                    "Jun-19",
+                    "Jul-19",
+                    "Aug-19",
+                    "Sep-19",
+                    "Okt-19",
+                    "Nov-19",
+                    "Des-19",
+                    "Jan-20",
+                    "Feb-20",
+                    "Mar-20",
+                    "Apr-20",
+                    "May-20",
+                    "Jun-20",
+                    "Jul-20",
+                    "Aug-20",
+                    "Sep-20",
+                    "Okt-20",
+                    "Nov-20",
+                    "Des-20"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "baki",
+                      "data": [
+                        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8,
+                        9, 0, 1, 1, 1
+                      ],
+                      "borderColor": "rgb(255, 99, 132)",
+                      "backgroundColor": "rgba(255, 99, 132, 0.5)"
+                    },
+                    {
+                      "label": "tunggakan",
+                      "data": [
+                        2, 1, 9, 3, 4, 3, 4, 4, 4, 4, 4, 4, 2, 1, 9, 3, 4, 3, 4,
+                        4, 4, 4, 4, 4
+                      ],
+                      "borderColor": "rgb(53, 162, 235)",
+                      "backgroundColor": "rgba(53, 162, 235, 0.5)"
+                    }
+                  ]
                 },
-                "box3": {
-                  "type": "box",
-                  "xMin": 0,
-                  "xMax": 23,
-                  "yMin": 500,
-                  "yMax": 700,
-                  "backgroundColor": "rgb(173, 173, 255,0.5)",
-                  "borderWidth": 0
-                }
-              }
-            }
-          },
-          "scales": {
-            "y": {
-              "type": "linear",
-              "display": true,
-              "position": "left",
-              "title": {
-                "display": true,
-                "text": "total baki",
-                "color": "rgb(255, 99, 132)",
-                "font": {
-                  "size": 16,
-                  "family": "sans-serif",
-                  "weight": "bold"
-                }
-              }
-            }
-          }
-        },
-        {
-          "type": "group",
-          "title": "Institusi Public",
-          "properties": {
-            "variant": "slider",
-            "col": 1
-          },
-          "childs": [
-            {
-              "type": "group",
-              "title": "BPJS Ketenagakerjaan",
-              "subtitle": "Data Peserta Pekerja",
-              "properties": {
-                "variant": "slider",
-                "col": 1
-              },
-              "childs": [
-                {
-                  "type": "info",
-                  "title": "Detail Informasi",
-                  "properties": {
-                    "col": 1
-                  },
-                  "content": {
-                    "left": [
-                      {
-                        "label": "Nama Field 1",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 2",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 3",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 4",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 5",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 6",
-                        "value": "value"
-                      },
-                      
-                    ],
-                    "right": [
-                      {
-                        "label": "Nama Field 7",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 8",
-                        "value": "value"
-                      },
-                      {
-                        "label": "Nama Field 8",
-                        "value": "value"
+                "scales": {
+                  "y": {
+                    "type": "linear",
+                    "display": true,
+                    "position": "left",
+                    "min": 0,
+                    "max": 10,
+                    "title": {
+                      "display": true,
+                      "text": "total baki",
+                      "color": "rgb(255, 99, 132)",
+                      "font": {
+                        "size": 16,
+                        "family": "sans-serif",
+                        "weight": "bold"
                       }
-                    ]
+                    }
+                  },
+                  "y1": {
+                    "type": "linear",
+                    "display": true,
+                    "position": "right",
+                    "min": 0,
+                    "max": 10,
+                    "title": {
+                      "display": true,
+                      "text": "total tunggakan",
+                      "color": "rgb(53, 162, 235)",
+                      "font": {
+                        "size": 16,
+                        "family": "sans-serif",
+                        "weight": "bold"
+                      }
+                    },
+                    "grid": {
+                      "drawOnChartArea": false
+                    }
                   }
                 },
-                {
-                  "type": "table",
-                  "title": "Riwayat Informasi",
+                "table": {
                   "headers": [
                     {
-                      "title": "Tgl. Perubahan",
-                      "dataIndex": "tglperubahan",
+                      "title": "Bulan",
+                      "dataIndex": "bulan",
                       "isId": true
                     },
                     {
-                      "title": "Jenis Data",
-                      "dataIndex": "jenisdata"
+                      "title": "Jumlah Fasilitas",
+                      "dataIndex": "jumlahfasilitas"
                     },
                     {
-                      "title": "Data Sebelum",
-                      "dataIndex": "datasebelum",
+                      "title": "Total Plafon",
+                      "dataIndex": "totalplafon",
                       "isId": true
                     },
                     {
-                      "title": "Data Sesudah",
-                      "dataIndex": "datasesudah"
+                      "title": "Total Baki Debet",
+                      "dataIndex": "totalbakidebet"
+                    },
+                    {
+                      "title": "Total Tunggakan",
+                      "dataIndex": "totaltunggakan"
+                    },
+                    {
+                      "title": "Maksimal Hari Tunggakan",
+                      "dataIndex": "maksimalharitunggakan"
+                    },
+                    {
+                      "title": "Maksimal Kolektabilitas",
+                      "dataIndex": "maksimalkolektabilitas"
                     }
                   ],
                   "rows": [
                     {
-                      "tglperubahan": "2020-01-01",
-                      "jenisdata": "nama Field 1",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
+                      "bulan": "Jan-19",
+                      "jumlahfasilitas": "6",
+                      "totalplafon": "500.000.000",
+                      "totalbakidebet": "500.000.000",
+                      "totaltunggakan": "500.000.000",
+                      "maksimalharitunggakan": "123",
+                      "maksimalkolektabilitas": "3"
                     },
                     {
-                      "tglperubahan": "2020-01-02",
-                      "jenisdata": "nama Field 2",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
-                    },
-                    {
-                      "tglperubahan": "2020-01-03",
-                      "jenisdata": "nama Field 3",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
-                    },
-                    {
-                      "tglperubahan": "2020-01-04",
-                      "jenisdata": "nama Field 4",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
-                    },
-                    {
-                      "tglperubahan": "2020-01-05",
-                      "jenisdata": "nama Field 5",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
-                    },
-                    {
-                      "tglperubahan": "2020-01-06",
-                      "jenisdata": "nama Field 6",
-                      "datasebelum": "nilai sebelumnya",
-                      "datasesudah": "nilai sesudahnya"
+                      "bulan": "Feb-19",
+                      "jumlahfasilitas": "6",
+                      "totalplafon": "500.000.000",
+                      "totalbakidebet": "500.000.000",
+                      "totaltunggakan": "500.000.000",
+                      "maksimalharitunggakan": "123",
+                      "maksimalkolektabilitas": "3"
                     }
                   ]
                 }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Informasi Terkini",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "table",
+            "title": "",
+            "headers": [
+              {
+                "title": "Tanggal Perolehan",
+                "dataIndex": "tanggalperolehan",
+                "isId": true
+              },
+              {
+                "title": "Jenis Pelapor",
+                "dataIndex": "jenispelapor"
+              },
+              {
+                "title": "Pelapor",
+                "dataIndex": "pelapor",
+                "isId": true
+              },
+              {
+                "title": "Jenis Data",
+                "dataIndex": "jenisdata"
+              },
+              {
+                "title": "Jenis Fasilitas",
+                "dataIndex": "jenisfasilitas"
+              },
+              {
+                "title": "Rekening",
+                "dataIndex": "rekening"
+              },
+              {
+                "title": "Data",
+                "dataIndex": "data"
+              }
+            ],
+            "rows": [
+              {
+                "tanggalperolehan": "2021-08-12",
+                "jenispelapor": "Perbankan",
+                "pelapor": "Bank Mandiri",
+                "jenisdata": "Fasilitas Baru",
+                "jenisfasilitas": "KPR",
+                "rekening": "A123PP",
+                "data": "1.000.0000"
+              },
+              {
+                "tanggalperolehan": "2021-08-11",
+                "jenispelapor": "Perbankan",
+                "pelapor": "Bank BCA",
+                "jenisdata": "Fasilitas Baru",
+                "jenisfasilitas": "KPR",
+                "rekening": "A123P",
+                "data": "3.000.000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Coba Buat",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "title": "Ringkasan Skor",
+            "type": "info",
+            "properties": {},
+            "content": {
+              "left": [
+                {
+                  "label": "Nama Sesuai Identitas",
+                  "value": "Heri Heriyadi"
+                },
+                {
+                  "label": "Tanggal Lahir",
+                  "value": "1990-08-23"
+                },
+                {
+                  "label": "Tempat Lahir",
+                  "value": "Jakarta"
+                },
+                {
+                  "label": "Jenis Kelamin",
+                  "value": "Male"
+                },
+                {
+                  "label": "Status Perkawinan",
+                  "value": "Kawin"
+                }
+              ],
+              "right": [
+                {
+                  "label": "Nama Lengkap",
+                  "value": "Heri Heriyadi"
+                },
+                {
+                  "label": "Nama Gadis Ibu Kandung",
+                  "value": "Wati Komariah"
+                },
+                {
+                  "label": "Pendidikan",
+                  "value": "S-1"
+                },
+                {
+                  "label": "Kategori Debitur",
+                  "value": "Penduduk"
+                }
               ]
             }
-          ]
-        }
-      ]
-    },
-    "individu": {
-      "title": "Individu",
-      "type": "tab",
-      "childs": [
-        {
-          "type": "group",
-          "title": "Di Dalam Ringkasan Laporan",
-          "properties": {
-            "variant": "slider",
-            "col": 1
-          },
-          "childs": [
-            {
-              "type": "card",
-              "title": "INI CARD Score",
-              "content": {
-                "left": [
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "chart",
+            "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
+            "properties": {
+              "col": 1,
+              "variant": "line"
+            },
+            "data": {
+              "labels": [
+                "Jan-19",
+                "Feb-19",
+                "Mar-19",
+                "Apr-19",
+                "May-19",
+                "Jun-19",
+                "Jul-19",
+                "Aug-19",
+                "Sep-19",
+                "Okt-19",
+                "Nov-19",
+                "Des-19",
+                "Jan-20",
+                "Feb-20",
+                "Mar-20",
+                "Apr-20",
+                "May-20",
+                "Jun-20",
+                "Jul-20",
+                "Aug-20",
+                "Sep-20",
+                "Okt-20",
+                "Nov-20",
+                "Des-20"
+              ],
+              "datasets": [
+                {
+                  "label": "data 1",
+                  "data": [
+                    600, 543, 483, 570, 501, 550, 603, 546, 532, 621, 506, 462,
+                    626, 619, 617, 564, 569, 505, 562, 543, 580, 457, 483, 507
+                  ],
+                  "fill": false,
+                  "borderColor": "rgb(75, 192, 192)",
+                  "pointRadius": 6,
+                  "pointBackgroundColor": "rgb(75, 192, 192)"
+                }
+              ]
+            },
+            "plugins": {
+              "datalabels": {
+                "display": true,
+                "color": "black",
+                "align": "end",
+                "anchor": "end",
+                "font": {
+                  "size": "10"
+                }
+              },
+              "legend": {
+                "position": "bottom",
+                "display": false,
+                "labels": {
+                  "color": "rgb(255, 99, 132)"
+                }
+              },
+              "autocolors": false,
+              "annotation": {
+                "annotations": {
+                  "box1": {
+                    "type": "box",
+                    "xMin": 0,
+                    "xMax": 23,
+                    "yMin": 0,
+                    "yMax": 300,
+                    "backgroundColor": "rgb(95, 94, 203,0.5)",
+                    "borderWidth": 0
+                  },
+                  "box2": {
+                    "type": "box",
+                    "xMin": 0,
+                    "xMax": 23,
+                    "yMin": 300,
+                    "yMax": 500,
+                    "backgroundColor": "rgb(145, 145, 233,0.5)",
+                    "borderWidth": 0
+                  },
+                  "box3": {
+                    "type": "box",
+                    "xMin": 0,
+                    "xMax": 23,
+                    "yMin": 500,
+                    "yMax": 700,
+                    "backgroundColor": "rgb(173, 173, 255,0.5)",
+                    "borderWidth": 0
+                  }
+                }
+              }
+            },
+            "scales": {
+              "y": {
+                "type": "linear",
+                "display": true,
+                "position": "left",
+                "title": {
+                  "display": true,
+                  "text": "total baki",
+                  "color": "rgb(255, 99, 132)",
+                  "font": {
+                    "size": 16,
+                    "family": "sans-serif",
+                    "weight": "bold"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "Institusi Public",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "group",
+            "title": "BPJS Ketenagakerjaan",
+
+            "properties": {
+              "variant": "slider",
+              "col": 1
+            },
+            "childs": [
+              {
+                "type": "info",
+                "title": "Detail Informasi",
+                "properties": {
+                  "col": 1
+                },
+                "content": {
+                  "left": [
+                    {
+                      "label": "Nama Field 1",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 2",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 3",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 4",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 5",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 6",
+                      "value": "value"
+                    }
+                  ],
+                  "right": [
+                    {
+                      "label": "Nama Field 7",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 8",
+                      "value": "value"
+                    },
+                    {
+                      "label": "Nama Field 8",
+                      "value": "value"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "table-info",
+                "title": "Riwayat Informasi",
+                "headers": [
                   {
-                    label: 'label',
-                    value: 'value'
+                    "title": "Tgl. Perubahan",
+                    "dataIndex": "tglperubahan",
+                    "isId": true
+                  },
+                  {
+                    "title": "Jenis Data",
+                    "dataIndex": "jenisdata"
+                  },
+                  {
+                    "title": "Data Sebelum",
+                    "dataIndex": "datasebelum",
+                    "isId": true
+                  },
+                  {
+                    "title": "Data Sesudah",
+                    "dataIndex": "datasesudah"
                   }
                 ],
-                "right": [
+                "rows": [
                   {
-                    label: 'label',
-                    value: 'value'
+                    "tglperubahan": "2020-01-01",
+                    "jenisdata": "nama Field 1",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
+                  },
+                  {
+                    "tglperubahan": "2020-01-02",
+                    "jenisdata": "nama Field 2",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
+                  },
+                  {
+                    "tglperubahan": "2020-01-03",
+                    "jenisdata": "nama Field 3",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
+                  },
+                  {
+                    "tglperubahan": "2020-01-04",
+                    "jenisdata": "nama Field 4",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
+                  },
+                  {
+                    "tglperubahan": "2020-01-05",
+                    "jenisdata": "nama Field 5",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
+                  },
+                  {
+                    "tglperubahan": "2020-01-06",
+                    "jenisdata": "nama Field 6",
+                    "datasebelum": "nilai sebelumnya",
+                    "datasesudah": "nilai sesudahnya"
                   }
                 ]
               }
-            }
-          ]
-        }
-      ]
-    },
-    "scoring": {
-      "title": "Scoring",
-      "type": "tab",
-      "childs": [
-        {
-          "type": "group",
-          "title": "Ringkasan Laporan",
-          "properties": {
-            "variant": "slider",
-            "col": 1
-          },
-          "childs": [
-            {
-              "type": "table",
-              "title": "Ringkasan Score",
-              "headers": [
-                {
-                  "title": "Jenis Skor",
-                  "dataIndex": "jenisscore",
-                  "isId": true
-                },
-                {
-                  "title": "Nilai",
-                  "dataIndex": "nilai"
-                },
-                {
-                  "title": "Kategori",
-                  "dataIndex": "kategori",
-                  "isId": true
-                },
-                {
-                  "title": "PoD",
-                  "dataIndex": "pod"
-                },
-                {
-                  "title": "Trend",
-                  "dataIndex": "trend"
-                },
-                {
-                  "title": "Keputusan",
-                  "dataIndex": "keputusan"
-                }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "chart",
+            "title": "Riwayat Ringkasan Fasilitas Masih Berjalan",
+            "properties": {
+              "col": 1,
+              "variant": "speedometer"
+            },
+            "config": {
+              "width": 480,
+              "height": 400,
+              "value": 801,
+              "maxValue": 1000,
+              "currentValueText": "",
+              "currentValuePlaceholderStyle": "#{value}",
+              "segmentColors": [
+                "#cf1322",
+                "#ff7a45",
+                "#ffc069",
+                "#bae637",
+                "#52c41a"
               ],
-              "rows": [
+              "customSegmentStops": [0, 200, 400, 600, 800, 1000],
+              "customSegmentLabels": [
                 {
-                  "jenisscore": "<a>Scoring 1</a>",
-                  "nilai": "626",
-                  "kategori": "LOW",
-                  "pod": "10%",
-                  "trend": "Down",
-                  "keputusan": "Declined"
+                  "text": "Very Bad",
+                  "position": "INSIDE",
+                  "color": "#ffff"
                 },
                 {
-                  "jenisscore": "<a>Scoring 2</a>",
-                  "nilai": "626",
-                  "kategori": "MID",
-                  "pod": "10%",
-                  "trend": "Up",
-                  "keputusan": "Accepted"
+                  "text": "Bad",
+                  "position": "INSIDE",
+                  "color": "#ffff"
+                },
+                {
+                  "text": "Fair",
+                  "position": "INSIDE",
+                  "color": "#ffff"
+                },
+                {
+                  "text": "Good",
+                  "position": "INSIDE",
+                  "color": "#ffff"
+                },
+                {
+                  "text": "Excellent",
+                  "position": "INSIDE",
+                  "color": "#ffff"
                 }
               ]
             }
-          ]
-        }
-      ]
-    }
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "table",
+            "title": "2021",
+            "headers": [
+              {
+                "title": "Bulan",
+                "dataIndex": "bulan"
+              },
+              {
+                "title": "2021-01",
+                "dataIndex": "jan",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-01",
+                "dataIndex": "jan2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-02",
+                "dataIndex": "feb",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-02",
+                "dataIndex": "feb2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-03",
+                "dataIndex": "mar",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-03",
+                "dataIndex": "mar2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-04",
+                "dataIndex": "apr",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-04",
+                "dataIndex": "apr2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "mei",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "mei2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "jun",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "jun2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "jul",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "jul2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "aug",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "aug2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "sep",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "sep2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "okt",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "okt2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "nov",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "nov2",
+                "colSpan": 0
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "des",
+                "colSpan": 2
+              },
+              {
+                "title": "2021-05",
+                "dataIndex": "des2",
+                "colSpan": 0
+              }
+            ],
+            "rows": [
+              {
+                "bulan": "Jumlah",
+                "jan": 85,
+                "jan2": 12,
+                "feb": 85,
+                "feb2": 12,
+                "mar": 85,
+                "mar2": 12,
+                "apr": 85,
+                "apr2": 12,
+                "mei": 85,
+                "mei2": 12,
+                "jun": 85,
+                "jun2": 12,
+                "jul": 85,
+                "jul2": 12,
+                "aug": 85,
+                "aug2": 12,
+                "sep": 85,
+                "sep2": 12,
+                "okt": 85,
+                "okt2": 12,
+                "nov": 85,
+                "nov2": 12,
+                "des": 85,
+                "des2": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "title": "asdsadsa",
+        "properties": {
+          "variant": "slider",
+          "col": 1
+        },
+        "childs": [
+          {
+            "type": "table-info",
+            "title": "Riwayat Informasi",
+            "properties": {
+              "expandable": {
+                "headers": [
+                  { "title": "Date", "dataIndex": "date", "key": "date" },
+                  { "title": "Name", "dataIndex": "name", "key": "name" },
+                  {
+                    "title": "Status",
+                    "key": "state"
+                  },
+                  {
+                    "title": "Upgrade Status",
+                    "dataIndex": "upgradeNum",
+                    "key": "upgradeNum"
+                  },
+                  {
+                    "title": "Action",
+                    "dataIndex": "operation",
+                    "key": "operation"
+                  }
+                ],
+                "rows": [
+                  {
+                    "key": 1,
+                    "date": "2014-12-24 23:12:00",
+                    "name": "This is production name",
+                    "upgradeNum": "Upgraded: 56"
+                  },
+                  {
+                    "key": 2,
+                    "date": "2014-12-24 23:12:00",
+                    "name": "This is production name",
+                    "upgradeNum": "Upgraded: 57"
+                  },
+                  {
+                    "key": 3,
+                    "date": "2014-12-24 23:12:00",
+                    "name": "This is production name",
+                    "upgradeNum": "Upgraded: 58"
+                  }
+                ]
+              }
+            },
+            "headers": [
+              {
+                "title": "Tgl. Perubahan",
+                "dataIndex": "tglperubahan",
+                "isId": true
+              },
+              {
+                "title": "Jenis Data",
+                "dataIndex": "jenisdata"
+              },
+              {
+                "title": "Data Sebelum",
+                "dataIndex": "datasebelum",
+                "isId": true
+              },
+              {
+                "title": "Data Sesudah",
+                "dataIndex": "datasesudah"
+              }
+            ],
+            "rows": [
+              {
+                "tglperubahan": "2020-01-01",
+                "jenisdata": "nama Field 1",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              },
+              {
+                "tglperubahan": "2020-01-02",
+                "jenisdata": "nama Field 2",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              },
+              {
+                "tglperubahan": "2020-01-03",
+                "jenisdata": "nama Field 3",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              },
+              {
+                "tglperubahan": "2020-01-04",
+                "jenisdata": "nama Field 4",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              },
+              {
+                "tglperubahan": "2020-01-05",
+                "jenisdata": "nama Field 5",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              },
+              {
+                "tglperubahan": "2020-01-06",
+                "jenisdata": "nama Field 6",
+                "datasebelum": "nilai sebelumnya",
+                "datasesudah": "nilai sesudahnya"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
