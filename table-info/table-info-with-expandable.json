@@ -1,0 +1,104 @@
+{
+  "type": "table-info",
+  "title": "Riwayat Informasi",
+  "properties": {
+    "expandable": {
+      "headers": [
+        { "title": "Date", "dataIndex": "date", "key": "date" },
+        { "title": "Name", "dataIndex": "name", "key": "name" },
+        {
+          "title": "Status",
+          "key": "state"
+        },
+        {
+          "title": "Upgrade Status",
+          "dataIndex": "upgradeNum",
+          "key": "upgradeNum"
+        },
+        {
+          "title": "Action",
+          "dataIndex": "operation",
+          "key": "operation"
+        }
+      ],
+      "rows": [
+        {
+          "key": 1,
+          "date": "2014-12-24 23:12:00",
+          "name": "This is production name",
+          "upgradeNum": "Upgraded: 56"
+        },
+        {
+          "key": 2,
+          "date": "2014-12-24 23:12:00",
+          "name": "This is production name",
+          "upgradeNum": "Upgraded: 57"
+        },
+        {
+          "key": 3,
+          "date": "2014-12-24 23:12:00",
+          "name": "This is production name",
+          "upgradeNum": "Upgraded: 58"
+        }
+      ]
+    }
+  },
+  "headers": [
+    {
+      "title": "Tgl. Perubahan",
+      "dataIndex": "tglperubahan",
+      "isId": true
+    },
+    {
+      "title": "Jenis Data",
+      "dataIndex": "jenisdata"
+    },
+    {
+      "title": "Data Sebelum",
+      "dataIndex": "datasebelum",
+      "isId": true
+    },
+    {
+      "title": "Data Sesudah",
+      "dataIndex": "datasesudah"
+    }
+  ],
+  "rows": [
+    {
+      "tglperubahan": "2020-01-01",
+      "jenisdata": "nama Field 1",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-02",
+      "jenisdata": "nama Field 2",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-03",
+      "jenisdata": "nama Field 3",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-04",
+      "jenisdata": "nama Field 4",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-05",
+      "jenisdata": "nama Field 5",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-06",
+      "jenisdata": "nama Field 6",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    }
+  ]
+}

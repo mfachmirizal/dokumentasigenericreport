@@ -1,0 +1,62 @@
+{
+  "type": "table-info",
+  "title": "Riwayat Informasi",
+  "headers": [
+    {
+      "title": "Tgl. Perubahan",
+      "dataIndex": "tglperubahan",
+      "isId": true
+    },
+    {
+      "title": "Jenis Data",
+      "dataIndex": "jenisdata"
+    },
+    {
+      "title": "Data Sebelum",
+      "dataIndex": "datasebelum",
+      "isId": true
+    },
+    {
+      "title": "Data Sesudah",
+      "dataIndex": "datasesudah"
+    }
+  ],
+  "rows": [
+    {
+      "tglperubahan": "2020-01-01",
+      "jenisdata": "nama Field 1",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-02",
+      "jenisdata": "nama Field 2",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-03",
+      "jenisdata": "nama Field 3",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-04",
+      "jenisdata": "nama Field 4",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-05",
+      "jenisdata": "nama Field 5",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    },
+    {
+      "tglperubahan": "2020-01-06",
+      "jenisdata": "nama Field 6",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    }
+  ]
+}
