@@ -2,7 +2,8 @@
   "type": "infoandheader",
   "title": "Parameter Pencarian",
   "properties": {
-    "col": 2
+    "col": 2,    
+    "extra": true
   },
   "content": [
     {
@@ -39,7 +40,8 @@
   "type": "infoandheader",
   "title": "Heri Heriyadi",
   "properties": {
-    "col": 2
+    "col": 2,    
+    "extra": true
   },
   "content": {
     "left": [
