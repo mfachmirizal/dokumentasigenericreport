@@ -1,8 +1,9 @@
 {
   "header": {
     "nama": "Heri Heryadi",
-    "report-id": "XXX",
-    "bid": "XXX",
+    "title": "Generic Report - Individual",
+    "report-id": "210712-151234-0909009-000006",
+    "bid": "123-123-123",
     "print-url": "/report?report_id=&bid="
   },
   "sections": {
