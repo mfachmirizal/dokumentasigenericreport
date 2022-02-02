@@ -7,7 +7,7 @@
     "print-url": "/report?report_id=&bid="
   },
   "sections": {
-    "newRingkasanGR": {
+    "ringkasan": {
       "title": "Ringkasan",
       "type": "tab",
       "childs": [
@@ -281,9 +281,9 @@
                         {
                           "kreditur": "<a>Bank Mandiri</a>",
                           "jenisFasilitas": "KPR",
-                          "plafon": 180000000,
-                          "bakiDebet": 180000000,
-                          "tunggakan": 10000000,
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 180.000.000",
                           "jumlahHariTunggakan": 12,
                           "kolektibilitas": 2,
                           "tglMulai": "2018-12-31",
@@ -292,9 +292,9 @@
                         {
                           "kreditur": "<a>Bank Central Asia</a>",
                           "jenisFasilitas": "KK",
-                          "plafon": 180000000,
-                          "bakiDebet": 180000000,
-                          "tunggakan": 10000000,
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 10.000.000",
                           "jumlahHariTunggakan": 15,
                           "kolektibilitas": 2,
                           "tglMulai": "2018-12-31",
@@ -302,27 +302,26 @@
                         },
                         {
                           "kreditur": "<a>PT. Adira Finance</a>",
-                          "jenisFasilitas": "KKB",
-                          "plafon": 180000000,
-                          "bakiDebet": 180000000,
-                          "tunggakan": 10000000,
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 10.000.000",
                           "jumlahHariTunggakan": 12,
                           "kolektibilitas": 2,
                           "tglMulai": "2018-12-31",
                           "jatuhTempo": "2021-12-31"
-                        },
-                        {
-                          "kreditur": "3",
-                          "jenisFasilitas": "3",
-                          "plafon": "180.000.000",
-                          "bakiDebet": "180.000.000",
-                          "tunggakan": "10000000",
-                          "jumlahHariTunggakan": "12",
-                          "kolektibilitas": "2",
-                          "tglMulai": "2018-12-31",
-                          "jatuhTempo": "2021-12-31"
                         }
-                      ]
+                      ],
+                      "summary": {
+                        "kreditur": "3",
+                        "jenisFasilitas": "3",
+                        "plafon": "IDR 180.000.000",
+                        "bakiDebet": "IDR 180.000.000",
+                        "tunggakan": "IDR 10.000.000",
+                        "jumlahHariTunggakan": "12",
+                        "kolektibilitas": "2",
+                        "tglMulai": "2018-12-31",
+                        "jatuhTempo": "2021-12-31"
+                      }
                     },
                     {
                       "type": "chart",
@@ -528,117 +527,117 @@
                           {
                             "bulan": "<a>Jan-20<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Dec-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Nov-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Okt-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Sep-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Aug-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jul-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jun-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Mei-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Apr-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Mar-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Feb-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jan-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           }
@@ -715,9 +714,9 @@
                         {
                           "kreditur": "<a>Bank Mandiri</a>",
                           "jenisFasilitas": "KPR",
-                          "plafon": "180.000.000",
-                          "bakiDebet": "180.000.000",
-                          "tunggakan": "10000000",
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 10.000.000",
                           "jumlahHariTunggakan": "12",
                           "kolektibilitas": "2",
                           "tglMulai": "2018-12-31",
@@ -726,9 +725,9 @@
                         {
                           "kreditur": "<a>Bank Central Asia</a>",
                           "jenisFasilitas": "KK",
-                          "plafon": "180.000.000",
-                          "bakiDebet": "180.000.000",
-                          "tunggakan": "10000000",
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 10.000.000",
                           "jumlahHariTunggakan": "12",
                           "kolektibilitas": "2",
                           "tglMulai": "2018-12-31",
@@ -737,26 +736,26 @@
                         {
                           "kreditur": "<a>PT. Adira Finance</a>",
                           "jenisFasilitas": "KKB",
-                          "plafon": "180.000.000",
-                          "bakiDebet": "180.000.000",
-                          "tunggakan": "10000000",
-                          "jumlahHariTunggakan": "12",
-                          "kolektibilitas": "2",
-                          "tglMulai": "2018-12-31",
-                          "jatuhTempo": "2021-12-31"
-                        },
-                        {
-                          "kreditur": "3",
-                          "jenisFasilitas": "3",
-                          "plafon": "180.000.000",
-                          "bakiDebet": "180.000.000",
-                          "tunggakan": "10000000",
+                          "plafon": "IDR 180.000.000",
+                          "bakiDebet": "IDR 180.000.000",
+                          "tunggakan": "IDR 10.000.000",
                           "jumlahHariTunggakan": "12",
                           "kolektibilitas": "2",
                           "tglMulai": "2018-12-31",
                           "jatuhTempo": "2021-12-31"
                         }
-                      ]
+                      ],
+                      "summary": {
+                        "kreditur": "3",
+                        "jenisFasilitas": "3",
+                        "plafon": "IDR 180.000.000",
+                        "bakiDebet": "IDR 180.000.000",
+                        "tunggakan": "IDR 10.000.000",
+                        "jumlahHariTunggakan": "12",
+                        "kolektibilitas": "2",
+                        "tglMulai": "2018-12-31",
+                        "jatuhTempo": "2021-12-31"
+                      }
                     },
                     {
                       "type": "chart",
@@ -962,117 +961,117 @@
                           {
                             "bulan": "<a>Jan-20<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Dec-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Nov-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Okt-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Sep-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Aug-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jul-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jun-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Mei-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Apr-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Mar-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Feb-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           },
                           {
                             "bulan": "<a>Jan-19<a/>",
                             "jumlahfasilitas": "6",
-                            "totalplafon": "500.000.000",
-                            "totalbakidebet": "500.000.000",
-                            "totaltunggakan": "500.000.000",
+                            "totalplafon": "IDR 500.000.000",
+                            "totalbakidebet": "IDR 500.000.000",
+                            "totaltunggakan": "IDR 500.000.000",
                             "maksimalharitunggakan": "123",
                             "maksimalkolektabilitas": "3"
                           }
@@ -1087,7 +1086,6 @@
               "type": "group",
               "title": "Sebagai Penjamin",
               "properties": {
-                "summary": true,
                 "variant": "slider-info",
                 "marginBottom": 10,
                 "onClick": true
@@ -1149,9 +1147,9 @@
                     {
                       "kreditur": "<a>Bank Mandiri</a>",
                       "jenisFasilitas": "KPR",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
@@ -1160,9 +1158,9 @@
                     {
                       "kreditur": "<a>Bank Central Asia</a>",
                       "jenisFasilitas": "KK",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
@@ -1171,26 +1169,26 @@
                     {
                       "kreditur": "<a>PT. Adira Finance</a>",
                       "jenisFasilitas": "KKB",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
-                      "jumlahHariTunggakan": "12",
-                      "kolektibilitas": "2",
-                      "tglMulai": "2018-12-31",
-                      "jatuhTempo": "2021-12-31"
-                    },
-                    {
-                      "kreditur": "3",
-                      "jenisFasilitas": "3",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
                       "jatuhTempo": "2021-12-31"
                     }
-                  ]
+                  ],
+                  "summary": {
+                    "kreditur": "3",
+                    "jenisFasilitas": "3",
+                    "plafon": "IDR 180.000.000",
+                    "bakiDebet": "IDR 180.000.000",
+                    "tunggakan": "IDR 10.000.000",
+                    "jumlahHariTunggakan": "12",
+                    "kolektibilitas": "2",
+                    "tglMulai": "2018-12-31",
+                    "jatuhTempo": "2021-12-31"
+                  }
                 },
                 {
                   "type": "table",
@@ -1248,9 +1246,9 @@
                     {
                       "kreditur": "<a>Bank Mandiri</a>",
                       "jenisFasilitas": "KPR",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
@@ -1259,9 +1257,9 @@
                     {
                       "kreditur": "<a>Bank Central Asia</a>",
                       "jenisFasilitas": "KK",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
@@ -1270,9 +1268,9 @@
                     {
                       "kreditur": "<a>PT. Adira Finance</a>",
                       "jenisFasilitas": "KKB",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
@@ -1281,15 +1279,26 @@
                     {
                       "kreditur": "3",
                       "jenisFasilitas": "3",
-                      "plafon": "180.000.000",
-                      "bakiDebet": "180.000.000",
-                      "tunggakan": "10000000",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
                       "jumlahHariTunggakan": "12",
                       "kolektibilitas": "2",
                       "tglMulai": "2018-12-31",
                       "jatuhTempo": "2021-12-31"
                     }
-                  ]
+                  ],
+                  "summary": {
+                    "kreditur": "3",
+                    "jenisFasilitas": "3",
+                    "plafon": "IDR 180.000.000",
+                    "bakiDebet": "IDR 180.000.000",
+                    "tunggakan": "IDR 10.000.000",
+                    "jumlahHariTunggakan": "12",
+                    "kolektibilitas": "2",
+                    "tglMulai": "2018-12-31",
+                    "jatuhTempo": "2021-12-31"
+                  }
                 }
               ]
             },
@@ -1366,9 +1375,9 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
@@ -1378,9 +1387,9 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
@@ -1390,22 +1399,22 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
-                    },
-                    {
-                      "noRegAgunan": "3",
-                      "jenisAgunan": "3",
-                      "jenisFasilitas": "2",
-                      "kreditur": "30.000.000",
-                      "njop": "30.000.000",
-                      "nilaiPelapor": "30.000.000"
                     }
-                  ]
+                  ],
+                  "summary": {
+                    "noRegAgunan": "3",
+                    "jenisAgunan": "3",
+                    "jenisFasilitas": "2",
+                    "kreditur": "IDR 30.000.000",
+                    "njop": "IDR 30.000.000",
+                    "nilaiPelapor": "IDR 30.000.000"
+                  }
                 },
                 {
                   "type": "table",
@@ -1470,9 +1479,9 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
@@ -1482,9 +1491,9 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
@@ -1494,22 +1503,22 @@
                       "jenisAgunan": "Gedung",
                       "jenisFasilitas": "KPR",
                       "kreditur": "Bank Mandiri",
-                      "njop": "10000000",
-                      "nilaiPelapor": "10000000",
-                      "nilaiIndependen": "10000000",
+                      "njop": "IDR 10.000.000",
+                      "nilaiPelapor": "IDR 10.000.000",
+                      "nilaiIndependen": "IDR 10.000.000",
                       "pengikatan": "Gadai",
                       "persentaseParipasu": "100%",
                       "namaPemilik": "Deni Rahman"
-                    },
-                    {
-                      "noRegAgunan": "3",
-                      "jenisAgunan": "3",
-                      "jenisFasilitas": "2",
-                      "kreditur": "30.000.000",
-                      "njop": "30.000.000",
-                      "nilaiPelapor": "30.000.000"
                     }
-                  ]
+                  ],
+                  "summary": {
+                    "noRegAgunan": "3",
+                    "jenisAgunan": "3",
+                    "jenisFasilitas": "2",
+                    "kreditur": "IDR 30.000.000",
+                    "njop": "IDR 30.000.000",
+                    "nilaiPelapor": "IDR 30.000.000"
+                  }
                 }
               ]
             },
@@ -1631,7 +1640,6 @@
                 {
                   "type": "group-chart",
                   "properties": {
-                    "variant": "point-title",
                     "pointer": false,
                     "col": 1,
                     "split": true
