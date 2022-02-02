@@ -1,0 +1,9 @@
+  {
+                        "type": "legend-table",
+                        "title": "Total Fasilitas Aktif",
+                        "properties": {
+                          "backgroundColor": "rgb(183, 235, 143)",
+                          "color": "black",
+                          "isBold": true
+                        }
+                      },
