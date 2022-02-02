@@ -50,5 +50,12 @@
         "trend": "Up",
         "keputusan": "Accepted"
       }
-    ]
+    ],  "summary": {
+                   "jenisscore": "2",
+        "nilai": "3",
+        "kategori": "MID",
+        "pod": "10%",
+        "trend": "Up",
+        "keputusan": "Accepted"
+                    }
 }
