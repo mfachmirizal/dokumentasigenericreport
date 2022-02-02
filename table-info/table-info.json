@@ -58,5 +58,10 @@
       "datasebelum": "nilai sebelumnya",
       "datasesudah": "nilai sesudahnya"
     }
-  ]
+  ],summary:  {
+      "tglperubahan": "2020-01-06",
+      "jenisdata": "nama Field 6",
+      "datasebelum": "nilai sebelumnya",
+      "datasesudah": "nilai sesudahnya"
+    }
 }
