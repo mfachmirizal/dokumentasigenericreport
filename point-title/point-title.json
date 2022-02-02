@@ -1,0 +1,389 @@
+    {
+                "type": "group",
+                "title": "Sebagai Debitur - Fasillitas Kredit Masih Berjalan",
+                "properties": {
+                  "backgroundColor": "rgb(90, 90, 139)",
+                  "variant": "point-title",
+                  "pointer": true,
+                  "titleColor": "#ffff",
+                  "marginBottom": 10,
+                  "onClick": true,
+                  "col": 1
+                },
+                "childs": [
+                  {
+                    "type": "table",
+                    "headers": [
+                      {
+                        "title": "Kreditur",
+                        "dataIndex": "kreditur",
+                        "isId": true,
+                        "align": "center"
+                      },
+                      {
+                        "title": "Jenis Fasilitas",
+                        "dataIndex": "jenisFasilitas",
+                        "isId": true,
+                        "align": "center"
+                      },
+                      {
+                        "title": "Plafon",
+                        "dataIndex": "plafon",
+                        "align": "right"
+                      },
+                      {
+                        "title": "Baki Debet",
+                        "dataIndex": "bakiDebet",
+                        "align": "right"
+                      },
+                      {
+                        "title": "Tunggakan",
+                        "dataIndex": "tunggakan",
+                        "align": "right"
+                      },
+                      {
+                        "title": "Jumlah Hari Tunggakan",
+                        "dataIndex": "jumlahHariTunggakan",
+                        "align": "center"
+                      },
+                      {
+                        "title": "Kolektibilitas",
+                        "dataIndex": "kolektibilitas",
+                        "align": "center"
+                      },
+                      {
+                        "title": "Tanggal Mulai",
+                        "dataIndex": "tglMulai",
+                        "align": "center"
+                      },
+                      {
+                        "title": "Jatuh Tempo",
+                        "dataIndex": "jatuhTempo",
+                        "align": "center"
+                      }
+                    ],
+                    "rows": [
+                      {
+                        "kreditur": "<a>Bank Mandiri</a>",
+                        "jenisFasilitas": "KPR",
+                        "plafon": "IDR 180.000.000",
+                        "bakiDebet": "IDR 180.000.000",
+                        "tunggakan": "IDR 180.000.000",
+                        "jumlahHariTunggakan": 12,
+                        "kolektibilitas": 2,
+                        "tglMulai": "2018-12-31",
+                        "jatuhTempo": "2021-12-31"
+                      },
+                      {
+                        "kreditur": "<a>Bank Central Asia</a>",
+                        "jenisFasilitas": "KK",
+                        "plafon": "IDR 180.000.000",
+                        "bakiDebet": "IDR 180.000.000",
+                        "tunggakan": "IDR 10.000.000",
+                        "jumlahHariTunggakan": 15,
+                        "kolektibilitas": 2,
+                        "tglMulai": "2018-12-31",
+                        "jatuhTempo": "2021-12-31"
+                      },
+                      {
+                        "kreditur": "<a>PT. Adira Finance</a>",
+                        "plafon": "IDR 180.000.000",
+                        "bakiDebet": "IDR 180.000.000",
+                        "tunggakan": "IDR 10.000.000",
+                        "jumlahHariTunggakan": 12,
+                        "kolektibilitas": 2,
+                        "tglMulai": "2018-12-31",
+                        "jatuhTempo": "2021-12-31"
+                      }
+                    ],
+                    "summary": {
+                      "kreditur": "3",
+                      "jenisFasilitas": "3",
+                      "plafon": "IDR 180.000.000",
+                      "bakiDebet": "IDR 180.000.000",
+                      "tunggakan": "IDR 10.000.000",
+                      "jumlahHariTunggakan": "12",
+                      "kolektibilitas": "2",
+                      "tglMulai": "2018-12-31",
+                      "jatuhTempo": "2021-12-31"
+                    }
+                  },
+                  {
+                    "type": "chart",
+                    "title": "Grafik Riwayat Ringkasan Fasilitas Masih Berjalan",
+                    "properties": {
+                      "col": 1,
+                      "variant": "line"
+                    },
+                    "data": {
+                      "labels": [
+                        "Jan-19",
+                        "Feb-19",
+                        "Mar-19",
+                        "Apr-19",
+                        "May-19",
+                        "Jun-19",
+                        "Jul-19",
+                        "Aug-19",
+                        "Sep-19",
+                        "Okt-19",
+                        "Nov-19",
+                        "Des-19",
+                        "Jan-20",
+                        "Feb-20",
+                        "Mar-20",
+                        "Apr-20",
+                        "May-20",
+                        "Jun-20",
+                        "Jul-20",
+                        "Aug-20",
+                        "Sep-20",
+                        "Okt-20",
+                        "Nov-20",
+                        "Des-20"
+                      ],
+                      "datasets": [
+                        {
+                          "label": "baki debet",
+                          "data": [
+                            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6,
+                            7, 8, 9, 0, 1, 1, 1
+                          ],
+                          "fill": false,
+                          "borderColor": "rgb(255, 99, 132, 1)",
+                          "backgroundColor": "rgb(255, 99, 132, 1)",
+                          "pointBackgroundColor": "rgb(255,255,255)",
+                          "pointRadius": 5
+                        },
+                        {
+                          "label": "tunggakan",
+                          "data": [
+                            2, 1, 9, 3, 4, 3, 4, 4, 4, 4, 4, 4, 2, 1, 9, 3, 4,
+                            3, 4, 4, 4, 4, 4, 4
+                          ],
+                          "fill": false,
+                          "borderColor": "rgb(53, 162, 235, 1)",
+                          "backgroundColor": "rgb(53, 162, 235, 1)",
+                          "pointBackgroundColor": "rgb(255,255,255)",
+                          "pointRadius": 5
+                        }
+                      ]
+                    },
+                    "plugins": {
+                      "datalabels": {
+                        "display": true,
+                        "color": "black",
+                        "align": "end",
+                        "anchor": "end",
+                        "font": {
+                          "size": "10"
+                        }
+                      },
+                      "legend": {
+                        "position": "top",
+                        "display": true
+                      },
+                      "autocolors": false
+                    },
+                    "scales": {
+                      "y": {
+                        "type": "linear",
+                        "display": true,
+                        "position": "left",
+                        "min": 0,
+                        "max": 10,
+                        "title": {
+                          "display": true,
+                          "text": "total baki debet",
+                          "color": "rgb(255, 99, 132)",
+                          "font": {
+                            "size": 16,
+                            "family": "sans-serif",
+                            "weight": "bold"
+                          }
+                        }
+                      },
+                      "y1": {
+                        "type": "linear",
+                        "display": true,
+                        "position": "right",
+                        "min": 0,
+                        "max": 10,
+                        "title": {
+                          "display": true,
+                          "text": "total tunggakan",
+                          "color": "rgb(53, 162, 235)",
+                          "font": {
+                            "size": 16,
+                            "family": "sans-serif",
+                            "weight": "bold"
+                          }
+                        },
+                        "grid": {
+                          "drawOnChartArea": false
+                        }
+                      }
+                    },
+                    "table": {
+                      "headers": [
+                        {
+                          "title": "Bulan",
+                          "dataIndex": "bulan",
+                          "isId": true,
+                          "align": "center"
+                        },
+                        {
+                          "title": "Jumlah Fasilitas",
+                          "dataIndex": "jumlahfasilitas",
+                          "align": "center"
+                        },
+                        {
+                          "title": "Total Plafon",
+                          "dataIndex": "totalplafon",
+                          "isId": true,
+                          "align": "right"
+                        },
+                        {
+                          "title": "Total Baki Debet",
+                          "dataIndex": "totalbakidebet",
+                          "align": "right"
+                        },
+                        {
+                          "title": "Total Tunggakan",
+                          "dataIndex": "totaltunggakan",
+                          "align": "right"
+                        },
+                        {
+                          "title": "Maksimal Hari Tunggakan",
+                          "dataIndex": "maksimalharitunggakan",
+                          "align": "center"
+                        },
+                        {
+                          "title": "Maksimal Kolektabilitas",
+                          "dataIndex": "maksimalkolektabilitas",
+                          "align": "center"
+                        }
+                      ],
+                      "rows": [
+                        {
+                          "bulan": "<a>Jan-20<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Dec-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Nov-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Okt-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Sep-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Aug-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Jul-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Jun-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Mei-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Apr-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Mar-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Feb-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        },
+                        {
+                          "bulan": "<a>Jan-19<a/>",
+                          "jumlahfasilitas": "6",
+                          "totalplafon": "IDR 500.000.000",
+                          "totalbakidebet": "IDR 500.000.000",
+                          "totaltunggakan": "IDR 500.000.000",
+                          "maksimalharitunggakan": "123",
+                          "maksimalkolektabilitas": "3"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
